@@ -1,0 +1,67 @@
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .input-container {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .input-container input[type='text'] {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-right: 10px;
+  }
+  
+  .input-container button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .actions button {
+    padding: 5px 10px;
+  }
+  
+  .delete-btn {
+    background-color: #ff1100;
+  }
+  
+  .edit-btn {
+    background-color: #72eaf5;
+  }
+  
+  .editing {
+    background-color: #e0e0e0;
+  }
+  
+  .editing input[type='text'] {
+    background-color: #e0e0e0;
+  }
+  
